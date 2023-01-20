@@ -32,11 +32,22 @@ img {
   font-weight: 500;
 }
 
+.marginTopClass {
+  margin-top: 25rem;
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center;
+  font-family: Roboto Mono;
+  color: aliceblue;
+  font-size: 3rem;
+  font-weight: 500; */
+}
+
 
 
 
 .subTitle {
-  margin-top: 20rem;
+  margin-top: 30rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,6 +69,7 @@ img {
 
 .fontClass {
   font-family: Roboto Mono;
+  margin-top: 15rem;
 }
 
 .cardClass {
