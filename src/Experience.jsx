@@ -5,13 +5,7 @@ import "animate.css/animate.min.css";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import { hover } from "@testing-library/user-event/dist/hover";
 
-const data = [
-  {
-    RRD: {
-      Name: "",
-    },
-  },
-];
+
 
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
@@ -36,16 +30,16 @@ export default function Experience() {
   return (
     <div>
       <AnimationOnScroll animateIn=" fadeOut">
-        <div className="text-center text-success fontClass">
+        <div className="text-center text-success fontClass ">
           <h3>My Career Journey</h3>
         </div>
       </AnimationOnScroll>
 
       {/* <div className="card mb-5 mb-lg-0 rounded-5 backgroundColor  text-bg-white-50 "> */}
 
-      <section className="container reveal mb-5 position-relative">
+      <section className="container  reveal mb-5 position-relative">
         <div className="row ">
-          <div className="col col-lg-4  rrdAnimation ">
+          <div className="col col-lg-4 col-md-12 col-sm-12   ">
             <div className="card mb-5 mb-lg-0 rounded-5 backgroundColor text-bg-white-50  ">
               <div className="card-body ">
                 <img
@@ -54,12 +48,12 @@ export default function Experience() {
                 ></img>
 
                 <h5 className="card-title mt-4 text-dark text-uppercase  text-center">
-                  RR Donnelley Global India Outsource Pvt. Ltd.
+                  RR Donnelley India Outsource Pvt. Ltd.
                 </h5>
                 <h5 className="card-header p-1 text-dark text-center">
                   Senior Customer Service Executive
                 </h5>
-                <h6 className="card-title text-dark fontClass  text-center">
+                <h6 className="card-title text-dark  text-center">
                   January 2017 - Present
                 </h6>
 
@@ -97,8 +91,8 @@ export default function Experience() {
               </div>
             </div>
           </div>
-          <div className="col col-lg-4 nineStarsAnimation ">
-            <div className="card  mb-lg-0 rounded-5 backgroundColor  text-bg-white-50 ">
+          <div className="col col-lg-4 col-md-12 col-sm-12 ">
+            <div className=" card mb-5 mb-lg-0 rounded-5 backgroundColor text-bg-white-50 ">
               <div className="card-body">
                 <img
                   src="https://www.ninestarsglobal.com/wp-content/themes/ninestars/img/Ninestars_Logo_black.svg"
@@ -112,7 +106,7 @@ export default function Experience() {
                 <h5 className="card-header text-dark  p-1 text-center">
                   Media Research Analyst
                 </h5>
-                <h6 className="card-title text-dark  fontClass text-center">
+                <h6 className="card-title text-dark   text-center">
                   December 2011 - January 2017
                 </h6>
 
@@ -150,7 +144,7 @@ export default function Experience() {
             </div>
           </div>
 
-          <div className="col col-lg-4  ramtechAnimation ">
+          <div className="col col-lg-4 col-md-12 col-sm-12  ">
             <div className="card mb-3 mb-lg-0 rounded-5 backgroundColor   text-white-50 ">
               <div className="card-body ">
                 <img
@@ -166,7 +160,7 @@ export default function Experience() {
                 <h5 className="card-header text-dark p-1 text-center">
                   General Transcriptionist
                 </h5>
-                <h6 className=" text-dark fontClass text-center">
+                <h6 className=" text-dark text-center">
                   March 2006 – December 2011
                 </h6>
 
