@@ -1,12 +1,12 @@
 import React from "react";
-// import MyPortfolio from "./Portfolio/MyPortfolio";
+
 
 export default function About() {
   return (
     <div>
       <div className="container ">
         <div className="row mt-5">
-          <div className="col-6 ">
+          <div className="col-lg-6 col-md-12 col-sm-12">
             <h1 className="text-success fontClass"> About Me</h1>
 
             <ul className="mt-5 fs-4 fst-italic text-white-50 ">
@@ -24,14 +24,17 @@ export default function About() {
                 ideas and strategies in both technical and user-friendly
                 language to a variety of audiences.
               </li>
-              <li className="mt-3">
+              {/* <li className="mt-3">
                 I'm interested in working with{" "}
                 <span class="text-warning">UI effects, animations </span>and
                 creating intuitive, dynamic user experiences.
-              </li>
+              </li> */}
             </ul>
           </div>
-          <div className="col col-6 fontClass" align="center">
+          <div
+            className="col-lg-6 col-md-12 col-sm-12 fontClass"
+            align="center"
+          >
             <h1 className="text-success">Technical Skills</h1>
 
             <h3 className="mt-5 text-danger">Languages</h3>
