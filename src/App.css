@@ -21,37 +21,23 @@ img {
 
 }
 
+
 .nameClass {
-  margin-top: 4rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 6rem;
+
   font-family: Roboto Mono;
   color: aliceblue;
   font-size: 3rem;
   font-weight: 500;
-}
 
-.marginTopClass {
-  margin-top: 25rem;
-  /* display: flex; */
-  /* justify-content: center;
-  align-items: center;
-  font-family: Roboto Mono;
-  color: aliceblue;
-  font-size: 3rem;
-  font-weight: 500; */
 }
 
 
 
 
-.subTitle {
-  margin-top: 30rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
+
+
 
 .logoClass {
   height: 5rem;
@@ -69,7 +55,7 @@ img {
 
 .fontClass {
   font-family: Roboto Mono;
-/*   margin-top: 15rem; */
+  margin-top: 15rem;
 }
 
 .cardClass {
@@ -173,10 +159,10 @@ img {
 
 @keyframes typing {
   from {
-    width: 0
+    width: 0%
   }
 
   to {
-    width: 30%
+    width: 85%
   }
 }
