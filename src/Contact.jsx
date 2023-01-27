@@ -26,9 +26,12 @@ export default function Contact() {
   };
   return (
     <div>
-      <div className="container position-static">
-        <div className="row mt-5 p-3">
-          <h1 className="text-success fontClass"> Contact Me</h1>
+      <div
+        className="container  "
+        style={{ marginTop: "15rem", marginBottom: "10rem" }}
+      >
+        <div className="row  p-3 ">
+          <h1 className="text-success fontClass "> Contact Me</h1>
 
           <div>
             <button
@@ -67,8 +70,6 @@ export default function Contact() {
                 className="logoImg"
               ></img>
             </a>
-
-            {/* <h5 className="mt-3 text-white-50">LinkedIn</h5> */}
           </div>
           <div className="col col-auto mt-5" align="center">
             <a
@@ -82,7 +83,6 @@ export default function Contact() {
                 className="logoImg"
               ></img>
             </a>
-            {/* <h5 className="mt-3 text-white-50">Github</h5> */}
           </div>
           <div className="col col-auto mt-5" align="center">
             <a
@@ -96,7 +96,6 @@ export default function Contact() {
                 className="logoImg"
               ></img>
             </a>
-            {/* <h5 className="mt-3 text-white-50">Netlify</h5> */}
           </div>
         </div>
       </div>
