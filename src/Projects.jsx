@@ -13,6 +13,15 @@ const images = [
     target: "_blank",
     rel: "noreferrer",
   },
+    {
+    src: "https://image.winudf.com/v2/image1/Y29tLnBpeG9jaXR5YXBwcy5zcGVlZF9pY29uXzE1NDM5ODA3MDJfMDA4/icon.png?fakeurl=1&h=240&type=webp",
+    width: 320,
+    height: 174, 
+    alt: "Typing Test",
+    href: "https://typingstudent.netlify.app",
+    target: "_blank",
+    rel: "noreferrer",
+  },
   {
     src: "https://www.shutterstock.com/image-photo/selecting-candidates-profile-on-virtual-260nw-622563449.jpg",
     width: 320,
