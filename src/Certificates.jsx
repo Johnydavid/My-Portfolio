@@ -3,7 +3,7 @@ import React from "react";
 
 const images = [
   {
-    src: "F:\My-Portfolio\certificates\GuviCertification - MERN FSD.png",
+    src: "F:/My-Portfolio/certificates/GuviCertification - MERN FSD.png",
     width: 500,
     height: 174,
     isSelected: false,
