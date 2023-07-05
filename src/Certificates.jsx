@@ -43,7 +43,7 @@ const images = [
   },
 ];
 
-export default function Certifcates() {
+export default function Certificates() {
   return (
     <>
       <h1 className="text-success fontClass" align="center">
