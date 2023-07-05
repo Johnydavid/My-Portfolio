@@ -1,28 +1,33 @@
 import React from "react";
-import ImageGallery from "react-image-gallery";
+
 
 const images = [
   {
-    src: "https://image3.mouthshut.com/images/imagesp/925106606s.jpg",
+    src: "https://drive.google.com/file/d/1-XWrHKKp7Emg7UWdRwVRWMZJ_hpQDbe3/view?usp=drive_link",
     width: 500,
     height: 174,
     isSelected: false,
-    caption: "Post Office Details",
-    alt: "Post Office",
-    href: "https://pincodelookup.netlify.app/",
+    caption: "MERN Full Stack Developer Certificate",
+    alt: "FSD",
+    href: "https://drive.google.com/file/d/1-XWrHKKp7Emg7UWdRwVRWMZJ_hpQDbe3/view?usp=drive_link",
+    target: "_blank",
+    rel: "noreferrer",
+  },
+    {
+    src: "https://image.winudf.com/v2/image1/Y29tLnBpeG9jaXR5YXBwcy5zcGVlZF9pY29uXzE1NDM5ODA3MDJfMDA4/icon.png?fakeurl=1&h=240&type=webp",
+    width: 320,
+    height: 174, 
+    alt: "Typing Test",
+    href: "https://typingstudent.netlify.app",
     target: "_blank",
     rel: "noreferrer",
   },
   {
-    src: "https://p4.wallpaperbetter.com/wallpaper/266/71/697/game-of-thrones-wallpaper-preview.jpg",
+    src: "https://www.shutterstock.com/image-photo/selecting-candidates-profile-on-virtual-260nw-622563449.jpg",
     width: 320,
-    height: 174,
-    tags: [
-      { value: "Chracters", title: "Characters" },
-      { value: "Quotes", title: "Quotes" },
-    ],
-    alt: "Game of Thrones",
-    href: "https://gameofthrones-characters.netlify.app/",
+    height: 174, 
+    alt: "User Profile",
+    href: "https://user-profile-dashboard.netlify.app/",
     target: "_blank",
     rel: "noreferrer",
   },
@@ -38,12 +43,12 @@ const images = [
   },
 ];
 
-export default function Projects() {
+export default function Certifcates() {
   return (
     <>
       <h1 className="text-success fontClass" align="center">
         {" "}
-        Projects
+       Certificates
       </h1>
 
       <div align="center" className="mt-5">

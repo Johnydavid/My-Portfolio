@@ -14,7 +14,7 @@ export default function Home() {
         </div>
 
         <div className="typedOut text-center text-white-50 ">
-          <h4>Front-End Developer</h4>
+          <h4>MERN Full Stack Developer</h4>
         </div>
       </div>
     </>
