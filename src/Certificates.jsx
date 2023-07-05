@@ -52,7 +52,7 @@ export default function Certificates() {
        Certificates
       </h1>
 
-      <div align="center" className="mt-5">
+      <div align="center" className="mt-5 m-3">
         {images.map((image) => {
           const { src, href, target, rel, alt } = image;
           return (
