@@ -3,7 +3,8 @@ import React from "react";
 
 const images = [
   {
-    src: "https://github.com/Johnydavid/My-Portfolio/blob/main/certificates/GuviCertification%20-%20MERN%20FSD.png",
+    // src: "https://github.com/Johnydavid/My-Portfolio/blob/main/certificates/GuviCertification%20-%20MERN%20FSD.png",
+    src : "https://drive.google.com/file/d/1-XWrHKKp7Emg7UWdRwVRWMZJ_hpQDbe3/view",
     width: 500,
     height: 174,
     isSelected: false,
