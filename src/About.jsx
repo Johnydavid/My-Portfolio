@@ -11,7 +11,7 @@ export default function About() {
 
             <ul className="mt-5 fs-4 fst-italic text-white-50 ">
               <li>
-                I'm a <span className="text-warning">Front-End Developer</span>{" "}
+                I'm a <span className="text-warning">MERN Full Stack Developer</span>{" "}
                 with a passion for developing interactive web applications.
               </li>
               <li className="mt-3 ">
