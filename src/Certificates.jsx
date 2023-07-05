@@ -4,9 +4,7 @@ import React from "react";
 const images = [
   {
     // src: "https://github.com/Johnydavid/My-Portfolio/blob/main/certificates/GuviCertification%20-%20MERN%20FSD.png",
-    // src : "https://media.licdn.com/dms/image/D5622AQEmZ6UjAsXCxg/feedshare-shrink_800/0/1688534480062?e=1691625600&v=beta&t=gPXUlmLuLbKG5Iu4HZo7HAyNDso6xhTqEkPfHrQW5wU",
-    src : "https://drive.google.com/file/d/1-XWrHKKp7Emg7UWdRwVRWMZJ_hpQDbe3/view?usp=sharing",
-
+    src : "https://media.licdn.com/dms/image/D5622AQEmZ6UjAsXCxg/feedshare-shrink_800/0/1688534480062?e=1691625600&v=beta&t=gPXUlmLuLbKG5Iu4HZo7HAyNDso6xhTqEkPfHrQW5wU",
     width: 500,
     height: 174,
     isSelected: false,
