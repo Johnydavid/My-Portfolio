@@ -10,7 +10,7 @@ const images = [
     isSelected: false,
     caption: "MERN Full Stack Developer Certificate",
     alt: "FSD",
-    href: "https://drive.google.com/file/d/1-XWrHKKp7Emg7UWdRwVRWMZJ_hpQDbe3/view?usp=drive_link",
+    href: "https://media.licdn.com/dms/image/D5622AQEmZ6UjAsXCxg/feedshare-shrink_800/0/1688534480062?e=1691625600&v=beta&t=gPXUlmLuLbKG5Iu4HZo7HAyNDso6xhTqEkPfHrQW5wU",
     target: "_blank",
     rel: "noreferrer",
   },
