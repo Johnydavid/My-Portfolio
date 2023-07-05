@@ -52,7 +52,7 @@ export default function Certificates() {
        Certificates
       </h1>
 
-      <div align="center" className="mt-5 m-3">
+      <div align="center" className="mt-5">
         {images.map((image) => {
           const { src, href, target, rel, alt } = image;
           return (
@@ -60,7 +60,7 @@ export default function Certificates() {
               <img
                 src={src}
                 alt={alt}
-                style={{ height: 250, width: 400 }}
+                style={{ height: 250, width: 400, marginLeft: 25 }}
               ></img>
             </a>
           );
