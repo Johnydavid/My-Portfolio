@@ -130,6 +130,16 @@ const images = [
     rel: "noreferrer",
   },
 
+  {
+    src: "https://media.licdn.com/dms/image/D5622AQHVENHkHier-A/feedshare-shrink_1280/0/1688880754310?e=1691625600&v=beta&t=HBAE9snTQdrLtdtHwxCsdCLTTR8x_p76yh4mdBVXfzg",
+    width: 320,
+    height: 174, 
+    alt: "mySQL - Guvi Certificate",
+    href: "https://media.licdn.com/dms/image/D5622AQHVENHkHier-A/feedshare-shrink_1280/0/1688880754310?e=1691625600&v=beta&t=HBAE9snTQdrLtdtHwxCsdCLTTR8x_p76yh4mdBVXfzg",
+    target: "_blank",
+    rel: "noreferrer",
+  },
+
 
 ];
 
