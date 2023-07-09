@@ -41,6 +41,15 @@ const images = [
     target: "_blank",
     rel: "noreferrer",
   },
+  {
+    src: "https://static.vecteezy.com/system/resources/previews/000/303/649/original/teacher-and-students-in-classroon-vector.jpg",
+    width: 320,
+    height: 212,
+    alt: "Student Teacher Dashboard",
+    href: "https://stud-teacher-dashboard.netlify.app/",
+    target: "_blank",
+    rel: "noreferrer",
+  },
 ];
 
 export default function Projects() {
