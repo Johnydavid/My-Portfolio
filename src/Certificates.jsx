@@ -14,24 +14,7 @@ const images = [
     target: "_blank",
     rel: "noreferrer",
   },
-    {
-    src: "https://media.licdn.com/dms/image/sync/C5627AQFQ-2uChj_FRA/articleshare-shrink_1280_800/0/1687410863611?e=1689145200&v=beta&t=4POU9l3rMFOA9-5x1VRhm9wudbIWfzEeCUxrykj0mQs",
-    width: 320,
-    height: 174, 
-    alt: "Data Science Tools",
-    href: "https://media.licdn.com/dms/image/sync/C5627AQFQ-2uChj_FRA/articleshare-shrink_1280_800/0/1687410863611?e=1689145200&v=beta&t=4POU9l3rMFOA9-5x1VRhm9wudbIWfzEeCUxrykj0mQs",
-    target: "_blank",
-    rel: "noreferrer",
-  },
-  {
-    src: "https://media.licdn.com/dms/image/sync/C5627AQGw8cip0Ld0cg/articleshare-shrink_1280_800/0/1687410863540?e=1689145200&v=beta&t=6-vpwkMOD4TRWLC8kdF1DqOHYlMuDHgCGBt5bLxcpVA",
-    width: 320,
-    height: 174, 
-    alt: "Data Science Foundation",
-    href: "https://media.licdn.com/dms/image/sync/C5627AQGw8cip0Ld0cg/articleshare-shrink_1280_800/0/1687410863540?e=1689145200&v=beta&t=6-vpwkMOD4TRWLC8kdF1DqOHYlMuDHgCGBt5bLxcpVA",
-    target: "_blank",
-    rel: "noreferrer",
-  },
+   
 
   {
     src: "https://media.licdn.com/dms/image/D5622AQF9-lA1gqALow/feedshare-shrink_1280/0/1688880568603?e=1691625600&v=beta&t=78hXpcw939AZ7Nm1ol_AnS04VmSRjs2rVYvYxIbvxUk",
@@ -81,6 +64,25 @@ const images = [
     rel: "noreferrer",
   },
   {
+    src: "https://media.licdn.com/dms/image/D5622AQEyZdvqLnQbsQ/feedshare-shrink_1280/0/1688880735058?e=1691625600&v=beta&t=Ttw9pD51XxspmS8d_fcN88Q0kOMt-t4c8XpBioJrLWY",
+    width: 320,
+    height: 174, 
+    alt: "ReactJS - Guvi Certificate",
+    href: "https://media.licdn.com/dms/image/D5622AQEyZdvqLnQbsQ/feedshare-shrink_1280/0/1688880735058?e=1691625600&v=beta&t=Ttw9pD51XxspmS8d_fcN88Q0kOMt-t4c8XpBioJrLWY",
+    target: "_blank",
+    rel: "noreferrer",
+  },
+
+  {
+    src: "https://media.licdn.com/dms/image/D5622AQG85KahVUDnMA/feedshare-shrink_1280/0/1688880745292?e=1691625600&v=beta&t=VLPG65hWyaCFJAMhcl0ug-EWxOmXekUCgRP2WrF0Wso",
+    width: 320,
+    height: 174, 
+    alt: "NodeJS - Guvi Certificate",
+    href: "https://media.licdn.com/dms/image/D5622AQG85KahVUDnMA/feedshare-shrink_1280/0/1688880745292?e=1691625600&v=beta&t=VLPG65hWyaCFJAMhcl0ug-EWxOmXekUCgRP2WrF0Wso",
+    target: "_blank",
+    rel: "noreferrer",
+  },
+  {
     src: "https://media.licdn.com/dms/image/D5622AQFgu4fURaIghg/feedshare-shrink_1280/0/1688880667576?e=1691625600&v=beta&t=qs1V9zZ-j5tIcxDJBOSVwND7ofnIoQWX89enjecvCwc",
     width: 320,
     height: 174, 
@@ -110,25 +112,7 @@ const images = [
     rel: "noreferrer",
   },
 
-  {
-    src: "https://media.licdn.com/dms/image/D5622AQEyZdvqLnQbsQ/feedshare-shrink_1280/0/1688880735058?e=1691625600&v=beta&t=Ttw9pD51XxspmS8d_fcN88Q0kOMt-t4c8XpBioJrLWY",
-    width: 320,
-    height: 174, 
-    alt: "ReactJS - Guvi Certificate",
-    href: "https://media.licdn.com/dms/image/D5622AQEyZdvqLnQbsQ/feedshare-shrink_1280/0/1688880735058?e=1691625600&v=beta&t=Ttw9pD51XxspmS8d_fcN88Q0kOMt-t4c8XpBioJrLWY",
-    target: "_blank",
-    rel: "noreferrer",
-  },
 
-  {
-    src: "https://media.licdn.com/dms/image/D5622AQG85KahVUDnMA/feedshare-shrink_1280/0/1688880745292?e=1691625600&v=beta&t=VLPG65hWyaCFJAMhcl0ug-EWxOmXekUCgRP2WrF0Wso",
-    width: 320,
-    height: 174, 
-    alt: "NodeJS - Guvi Certificate",
-    href: "https://media.licdn.com/dms/image/D5622AQG85KahVUDnMA/feedshare-shrink_1280/0/1688880745292?e=1691625600&v=beta&t=VLPG65hWyaCFJAMhcl0ug-EWxOmXekUCgRP2WrF0Wso",
-    target: "_blank",
-    rel: "noreferrer",
-  },
 
   {
     src: "https://media.licdn.com/dms/image/D5622AQHVENHkHier-A/feedshare-shrink_1280/0/1688880754310?e=1691625600&v=beta&t=HBAE9snTQdrLtdtHwxCsdCLTTR8x_p76yh4mdBVXfzg",
@@ -140,7 +124,24 @@ const images = [
     rel: "noreferrer",
   },
 
-
+  {
+    src: "https://media.licdn.com/dms/image/sync/C5627AQFQ-2uChj_FRA/articleshare-shrink_1280_800/0/1687410863611?e=1689145200&v=beta&t=4POU9l3rMFOA9-5x1VRhm9wudbIWfzEeCUxrykj0mQs",
+    width: 320,
+    height: 174, 
+    alt: "Data Science Tools",
+    href: "https://media.licdn.com/dms/image/sync/C5627AQFQ-2uChj_FRA/articleshare-shrink_1280_800/0/1687410863611?e=1689145200&v=beta&t=4POU9l3rMFOA9-5x1VRhm9wudbIWfzEeCUxrykj0mQs",
+    target: "_blank",
+    rel: "noreferrer",
+  },
+  {
+    src: "https://media.licdn.com/dms/image/sync/C5627AQGw8cip0Ld0cg/articleshare-shrink_1280_800/0/1687410863540?e=1689145200&v=beta&t=6-vpwkMOD4TRWLC8kdF1DqOHYlMuDHgCGBt5bLxcpVA",
+    width: 320,
+    height: 174, 
+    alt: "Data Science Foundation",
+    href: "https://media.licdn.com/dms/image/sync/C5627AQGw8cip0Ld0cg/articleshare-shrink_1280_800/0/1687410863540?e=1689145200&v=beta&t=6-vpwkMOD4TRWLC8kdF1DqOHYlMuDHgCGBt5bLxcpVA",
+    target: "_blank",
+    rel: "noreferrer",
+  },
 ];
 
 export default function Certificates() {
