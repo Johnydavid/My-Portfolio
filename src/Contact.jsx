@@ -28,7 +28,7 @@ export default function Contact() {
     <div>
       <div
         className="container  "
-        style={{ marginTop: "15rem", marginBottom: "10rem" }}
+        style={{ marginTop: "10rem", marginBottom: "10rem" }}
       >
         <div className="row  p-3 ">
           <h1 className="text-success fontClass "> Contact Me</h1>
