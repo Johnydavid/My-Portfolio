@@ -33,6 +33,37 @@ const images = [
     rel: "noreferrer",
   },
 
+  {
+    src: "https://media.licdn.com/dms/image/D5622AQF9-lA1gqALow/feedshare-shrink_1280/0/1688880568603?e=1691625600&v=beta&t=78hXpcw939AZ7Nm1ol_AnS04VmSRjs2rVYvYxIbvxUk",
+    width: 320,
+    height: 174, 
+    alt: "HTML - Guvi Certificate",
+    href: "https://media.licdn.com/dms/image/D5622AQF9-lA1gqALow/feedshare-shrink_1280/0/1688880568603?e=1691625600&v=beta&t=78hXpcw939AZ7Nm1ol_AnS04VmSRjs2rVYvYxIbvxUk",
+    target: "_blank",
+    rel: "noreferrer",
+  },
+
+  {
+    src: "https://media.licdn.com/dms/image/D5622AQFLE0LRXFMOvA/feedshare-shrink_1280/0/1688880588219?e=1691625600&v=beta&t=FwnDNqUga1enQnHxdO32rM5wPZ2sTkKjumCG31gegmY",
+    width: 320,
+    height: 174, 
+    alt: "CSS - Guvi Certificate",
+    href: "https://media.licdn.com/dms/image/D5622AQFLE0LRXFMOvA/feedshare-shrink_1280/0/1688880588219?e=1691625600&v=beta&t=FwnDNqUga1enQnHxdO32rM5wPZ2sTkKjumCG31gegmY",
+    target: "_blank",
+    rel: "noreferrer",
+  },
+
+  {
+    src: "https://media.licdn.com/dms/image/D5622AQFLE0LRXFMOvA/feedshare-shrink_1280/0/1688880588219?e=1691625600&v=beta&t=FwnDNqUga1enQnHxdO32rM5wPZ2sTkKjumCG31gegmY",
+    width: 320,
+    height: 174, 
+    alt: "CSS - Guvi Certificate",
+    href: "https://media.licdn.com/dms/image/D5622AQFLE0LRXFMOvA/feedshare-shrink_1280/0/1688880588219?e=1691625600&v=beta&t=FwnDNqUga1enQnHxdO32rM5wPZ2sTkKjumCG31gegmY",
+    target: "_blank",
+    rel: "noreferrer",
+  },
+
+
 //   {
 //     src: "https://st3.depositphotos.com/4187167/14640/i/1600/depositphotos_146407923-stock-photo-makeup-products-in-shopping-cart.jpg",
 //     width: 320,
