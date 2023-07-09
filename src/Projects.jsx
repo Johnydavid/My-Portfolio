@@ -68,7 +68,7 @@ export default function Projects() {
               <img
                 src={src}
                 alt={alt}
-                style={{ height: 250, width: 400 }}
+                style={{ height: 250, width: 400, marginLeft : 25, marginTop : 25 }}
               ></img>
             </a>
           );
