@@ -62,7 +62,15 @@ const images = [
     target: "_blank",
     rel: "noreferrer",
   },
-
+  {
+    src: "https://media.licdn.com/dms/image/D5622AQGFvc4ViZK4ZA/feedshare-shrink_1280/0/1688880603827?e=1691625600&v=beta&t=hVKbQYotA358PrHpRGXi7p0Pgt8vsq6J0ED42EC0R6s",
+    width: 320,
+    height: 174, 
+    alt: "Bootstrap - Guvi Certificate",
+    href: "https://media.licdn.com/dms/image/D5622AQGFvc4ViZK4ZA/feedshare-shrink_1280/0/1688880603827?e=1691625600&v=beta&t=hVKbQYotA358PrHpRGXi7p0Pgt8vsq6J0ED42EC0R6s",
+    target: "_blank",
+    rel: "noreferrer",
+  },
 
 //   {
 //     src: "https://st3.depositphotos.com/4187167/14640/i/1600/depositphotos_146407923-stock-photo-makeup-products-in-shopping-cart.jpg",
@@ -91,7 +99,7 @@ export default function Certificates() {
               <img
                 src={src}
                 alt={alt}
-                style={{ height: 250, width: 400, marginLeft: 25 }}
+                style={{ height: 250, width: 400, marginLeft: 25, marginTop : 25 }}
               ></img>
             </a>
           );
