@@ -149,8 +149,8 @@ const images = [
   {
     original:  "https://media.licdn.com/dms/image/D5622AQEmZ6UjAsXCxg/feedshare-shrink_800/0/1688534480062?e=1691625600&v=beta&t=gPXUlmLuLbKG5Iu4HZo7HAyNDso6xhTqEkPfHrQW5wU",
     thumbnail: "https://media.licdn.com/dms/image/D5622AQEmZ6UjAsXCxg/feedshare-shrink_800/0/1688534480062?e=1691625600&v=beta&t=gPXUlmLuLbKG5Iu4HZo7HAyNDso6xhTqEkPfHrQW5wU"
-    // width: 500,
-    // height: 174,
+    width: 500,
+    height: 174,
     // isSelected: false,
     // caption: "MERN Full Stack Developer Certificate",
     // alt: "FSD",
@@ -175,8 +175,8 @@ const images = [
   {
     original: "https://media.licdn.com/dms/image/D5622AQFLE0LRXFMOvA/feedshare-shrink_1280/0/1688880588219?e=1691625600&v=beta&t=FwnDNqUga1enQnHxdO32rM5wPZ2sTkKjumCG31gegmY",
     thumbnail: "https://media.licdn.com/dms/image/D5622AQFLE0LRXFMOvA/feedshare-shrink_1280/0/1688880588219?e=1691625600&v=beta&t=FwnDNqUga1enQnHxdO32rM5wPZ2sTkKjumCG31gegmY",
-    // width: 320,
-    // height: 174, 
+    width: 320,
+    height: 174, 
     // alt: "CSS - Guvi Certificate",
     // href: "https://media.licdn.com/dms/image/D5622AQFLE0LRXFMOvA/feedshare-shrink_1280/0/1688880588219?e=1691625600&v=beta&t=FwnDNqUga1enQnHxdO32rM5wPZ2sTkKjumCG31gegmY",
     // target: "_blank",
@@ -314,7 +314,7 @@ export default function Certificates() {
             </a>
           );
         })}
-      </div> */}
+      </div> 
     </>
   );
 }
