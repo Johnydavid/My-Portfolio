@@ -1,26 +1,18 @@
 body {
   background-color: #1d1d1d;
   color: whitesmoke;
-
 }
 
-
 img {
-  height: 50px;
-  width: 50px;
-
-
-
+  height: 150px;
+  width: 150px;
 }
 
 .logoImg {
   height: 30px;
   width: 30px;
   border-radius: 50%;
-
-
 }
-
 
 .nameClass {
   margin-top: 6rem;
@@ -29,29 +21,18 @@ img {
   color: aliceblue;
   font-size: 3rem;
   font-weight: 500;
-
 }
-
-
-
-
-
-
-
 
 .logoClass {
   height: 5rem;
   width: 10rem;
   padding: 25px;
-
 }
 
 .backgroundColor {
   background-color: rgb(rgb(104, 16, 16));
   backdrop-filter: blur(5px);
-
 }
-
 
 .fontClass {
   font-family: Roboto Mono;
@@ -61,20 +42,13 @@ img {
 .cardClass {
   height: 5em;
   width: 25rem;
-
 }
 
-
-
-
 .nineStarsAnimation {
-
   position: absolute;
   animation: ninestarsmove 3s forwards ease-out;
   animation-direction: normal;
-
 }
-
 
 @keyframes ninestarsmove {
   0% {
@@ -82,20 +56,16 @@ img {
     top: 0px;
   }
 
-
   100% {
     left: 25rem;
     top: 0rem;
-
   }
 }
 
 .ramtechAnimation {
-
   position: absolute;
   animation: ramtechmove 5s forwards ease-out;
   animation-direction: normal;
-
 }
 
 @keyframes ramtechmove {
@@ -106,17 +76,15 @@ img {
 
   50% {
     left: 25rem;
-    top: 0rem
+    top: 0rem;
   }
 
   100% {
     left: 50rem;
 
     top: 0rem;
-
   }
 }
-
 
 .Anim {
   margin: 500px;
@@ -130,7 +98,7 @@ img {
   background-color: aqua;
   position: relative;
   transform: translateY(150px);
-  transition: 2s all ease
+  transition: 2s all ease;
 }
 
 .reveal {
@@ -143,26 +111,20 @@ img {
 .reveal.active {
   transform: translateY(0);
   opacity: 1;
-
 }
-
-
 
 .typedOut {
   overflow: hidden;
   white-space: nowrap;
-  animation:
-    typing 2s alternate infinite;
-
-
+  animation: typing 2s alternate infinite;
 }
 
 @keyframes typing {
   from {
-    width: 0%
+    width: 0%;
   }
 
   to {
-    width: 85%
+    width: 85%;
   }
 }
