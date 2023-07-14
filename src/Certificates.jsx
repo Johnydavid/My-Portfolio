@@ -147,8 +147,8 @@ import ImageGallery from 'react-image-gallery';
 
 const images = [
   {
-    original:  "https://media.licdn.com/dms/image/D5622AQEmZ6UjAsXCxg/feedshare-shrink_800/0/1688534480062?e=1691625600&v=beta&t=gPXUlmLuLbKG5Iu4HZo7HAyNDso6xhTqEkPfHrQW5wU",
-    thumbnail: "https://media.licdn.com/dms/image/D5622AQEmZ6UjAsXCxg/feedshare-shrink_800/0/1688534480062?e=1691625600&v=beta&t=gPXUlmLuLbKG5Iu4HZo7HAyNDso6xhTqEkPfHrQW5wU"
+    src:  "https://media.licdn.com/dms/image/D5622AQEmZ6UjAsXCxg/feedshare-shrink_800/0/1688534480062?e=1691625600&v=beta&t=gPXUlmLuLbKG5Iu4HZo7HAyNDso6xhTqEkPfHrQW5wU",
+    href: "https://media.licdn.com/dms/image/D5622AQEmZ6UjAsXCxg/feedshare-shrink_800/0/1688534480062?e=1691625600&v=beta&t=gPXUlmLuLbKG5Iu4HZo7HAyNDso6xhTqEkPfHrQW5wU",
     width: 500,
     height: 174,
     // isSelected: false,
@@ -161,11 +161,11 @@ const images = [
    
 
   {
-    original:"https://media.licdn.com/dms/image/D5622AQF9-lA1gqALow/feedshare-shrink_1280/0/1688880568603?e=1691625600&v=beta&t=78hXpcw939AZ7Nm1ol_AnS04VmSRjs2rVYvYxIbvxUk",
-    thumbnail: "https://media.licdn.com/dms/image/D5622AQF9-lA1gqALow/feedshare-shrink_1280/0/1688880568603?e=1691625600&v=beta&t=78hXpcw939AZ7Nm1ol_AnS04VmSRjs2rVYvYxIbvxUk",
+    src:"https://media.licdn.com/dms/image/D5622AQF9-lA1gqALow/feedshare-shrink_1280/0/1688880568603?e=1691625600&v=beta&t=78hXpcw939AZ7Nm1ol_AnS04VmSRjs2rVYvYxIbvxUk",
+    href: "https://media.licdn.com/dms/image/D5622AQF9-lA1gqALow/feedshare-shrink_1280/0/1688880568603?e=1691625600&v=beta&t=78hXpcw939AZ7Nm1ol_AnS04VmSRjs2rVYvYxIbvxUk",
     // src: "https://media.licdn.com/dms/image/D5622AQF9-lA1gqALow/feedshare-shrink_1280/0/1688880568603?e=1691625600&v=beta&t=78hXpcw939AZ7Nm1ol_AnS04VmSRjs2rVYvYxIbvxUk",
-    // width: 320,
-    // height: 174, 
+    width: 320,
+    height: 174, 
     // alt: "HTML - Guvi Certificate",
     // href: "https://media.licdn.com/dms/image/D5622AQF9-lA1gqALow/feedshare-shrink_1280/0/1688880568603?e=1691625600&v=beta&t=78hXpcw939AZ7Nm1ol_AnS04VmSRjs2rVYvYxIbvxUk",
     // target: "_blank",
@@ -173,8 +173,8 @@ const images = [
   },
 
   {
-    original: "https://media.licdn.com/dms/image/D5622AQFLE0LRXFMOvA/feedshare-shrink_1280/0/1688880588219?e=1691625600&v=beta&t=FwnDNqUga1enQnHxdO32rM5wPZ2sTkKjumCG31gegmY",
-    thumbnail: "https://media.licdn.com/dms/image/D5622AQFLE0LRXFMOvA/feedshare-shrink_1280/0/1688880588219?e=1691625600&v=beta&t=FwnDNqUga1enQnHxdO32rM5wPZ2sTkKjumCG31gegmY",
+    src: "https://media.licdn.com/dms/image/D5622AQFLE0LRXFMOvA/feedshare-shrink_1280/0/1688880588219?e=1691625600&v=beta&t=FwnDNqUga1enQnHxdO32rM5wPZ2sTkKjumCG31gegmY",
+    href: "https://media.licdn.com/dms/image/D5622AQFLE0LRXFMOvA/feedshare-shrink_1280/0/1688880588219?e=1691625600&v=beta&t=FwnDNqUga1enQnHxdO32rM5wPZ2sTkKjumCG31gegmY",
     width: 320,
     height: 174, 
     // alt: "CSS - Guvi Certificate",
