@@ -184,7 +184,7 @@ export default function Experience() {
                       <FontAwesomeIcon icon={faCheckCircle} />
                     </span>
                     <i>
-                    Proficient in using a variety of transcription software such as Express Scribe, and Dragon Naturally Speaking
+                    Proficient in using a variety of transcription software such as Express Scribe, and Dragon
                     </i>
                   </li>
                 </ul>
