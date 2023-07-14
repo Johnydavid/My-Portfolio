@@ -293,11 +293,12 @@ const images = [
 export default function Certificates() {
   return (
     <>
-    <ImageGallery items={images} />;
-      {/* <h1 className="text-success fontClass" align="center">
+     <h1 className="text-success fontClass" align="center">
         {" "}
        Certificates
       </h1>
+    <ImageGallery items={images} />;
+    
 
       <div align="center" className="mt-5">
         {images.map((image) => {
