@@ -167,7 +167,7 @@ export default function Experience() {
                     </span>
 
                     <i>
-                    Experienced General Transcriptionist with 5 years of experience in converting audio, video, and other digital media into written documents
+                    Experienced General Transcriptionist with 5 years of experience in converting digital media into written documents
                     </i>
                   </li>
                   <li className="list-group-item fs-5 backgroundColor text-dark ">
