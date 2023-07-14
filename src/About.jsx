@@ -1,6 +1,5 @@
 import React from "react";
 
-
 export default function About() {
   return (
     <div>
@@ -11,24 +10,30 @@ export default function About() {
 
             <ul className="mt-5 fs-4 fst-italic text-white-50 ">
               <li>
-                I'm a <span className="text-warning">MERN Full Stack Developer</span>{" "}
+                I'm a{" "}
+                <span className="text-warning">MERN Full Stack Developer</span>{" "}
                 with a passion for developing interactive web applications.
               </li>
               <li className="mt-3 ">
-                Focused and efficient learner with practical expertise in
-                creating <span class="text-warning">eCommerce, gaming</span> and{" "}
-                <span class="text-warning">educational</span> websites.
+                Entry level experience in developing full stack applications
+                using the MERN stack{" "}
+                <span class="text-warning">
+                  (MongoDB, Express, React, Node.js)
+                </span>
               </li>
               <li className="mt-3">
-                I'm able to develop, present and effectively communicate complex
-                ideas and strategies in both technical and user-friendly
-                language to a variety of audiences.
+                Familiarity with software development best practices such as
+                version control[Git], continuous integration, and automated
+                testing
               </li>
-              {/* <li className="mt-3">
-                I'm interested in working with{" "}
-                <span class="text-warning">UI effects, animations </span>and
-                creating intuitive, dynamic user experiences.
-              </li> */}
+              <li className="mt-3">
+                Experience developing RESTful APIs using Node.js and Express 
+                Proficiency in HTML5, CSS3, and JavaScript
+              </li>
+
+              <li className="mt-3">
+                Proficiency in HTML5, CSS3, and JavaScript
+              </li>
             </ul>
           </div>
           <div
@@ -116,6 +121,17 @@ export default function About() {
                   src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
                   alt="nodejs"
                   title="NodeJS"
+                />{" "}
+              </a>
+            </p>
+            <h3 className="mt-5 text-danger">Database</h3>
+            <p className="mt-3">
+              <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
+                {" "}
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/2560px-MongoDB_Logo.svg.png"
+                  alt="mongoDB"
+                  title="MongoDB"
                 />{" "}
               </a>
             </p>
