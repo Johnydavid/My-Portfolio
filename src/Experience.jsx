@@ -81,7 +81,7 @@ export default function Experience() {
                       <FontAwesomeIcon icon={faCheckCircle} />
                     </span>
                     <i>
-                    Experienced in managing customer inquiries, complaints, and feedback
+                    Handling complaints to building strategies for improving the overall customer experience and fostering loyalty
                     </i>
                   </li>
                 </ul>
