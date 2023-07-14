@@ -297,10 +297,11 @@ export default function Certificates() {
         {" "}
        Certificates
       </h1>
-    <ImageGallery items={images} />;
+  
     
 
       <div align="center" className="mt-5">
+      <ImageGallery items={images} />;
         {images.map((image) => {
           const { src, href, target, rel, alt } = image;
           return (
