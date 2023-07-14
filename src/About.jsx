@@ -124,7 +124,7 @@ export default function About() {
                 />{" "}
               </a>
             </p>
-            <h3 className="mt-5 text-danger">Database</h3>
+            <h3 className="mt-3 text-danger">Database</h3>
             <p className="mt-3">
               <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
                 {" "}
