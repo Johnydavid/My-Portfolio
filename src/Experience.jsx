@@ -3,7 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/fontawesome-free-solid";
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from "react-animation-on-scroll";
-import { hover } from "@testing-library/user-event/dist/hover";
+// import { hover } from "@testing-library/user-event/dist/hover";
+
 
 
 
