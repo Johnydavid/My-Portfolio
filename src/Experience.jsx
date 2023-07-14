@@ -65,8 +65,7 @@ export default function Experience() {
                       <FontAwesomeIcon icon={faCheckCircle} />
                     </span>
                     <i>
-                      Responsible for providing customers with technical support
-                      and query handling.
+                    Working as a CSE for Boston Consulting Group (BCG) Global Production.
                     </i>
                   </li>
                   <li className="list-group-item fs-5 text-dark backgroundColor ">
@@ -74,8 +73,7 @@ export default function Experience() {
                       <FontAwesomeIcon icon={faCheckCircle} />
                     </span>
                     <i>
-                      Analyzing customer experience data and provide insights to
-                      the Front Desk team.
+                    5+ years of experience in customer service and client relations.
                     </i>
                   </li>
                   <li className="list-group-item fs-5 text-dark  backgroundColor  ">
@@ -83,8 +81,7 @@ export default function Experience() {
                       <FontAwesomeIcon icon={faCheckCircle} />
                     </span>
                     <i>
-                      Applied models and data to understand and predict customer
-                      satisfaction level
+                    Experienced in managing customer inquiries, complaints, and feedback
                     </i>
                   </li>
                 </ul>
@@ -104,7 +101,7 @@ export default function Experience() {
                   Ninestars Information Technologies Pvt. Ltd.
                 </h5>
                 <h5 className="card-header text-dark  p-1 text-center">
-                  Media Research Analyst
+                Language Specialist
                 </h5>
                 <h6 className="card-title text-dark   text-center">
                   December 2011 - January 2017
@@ -117,8 +114,7 @@ export default function Experience() {
                       <FontAwesomeIcon icon={faCheckCircle} />
                     </span>
                     <i>
-                      Media Research works for clients such as NewsAccess
-                      (Ireland), Kantar Media
+                    Experienced Language Specialist with over 5 years of experience in transcription, interpretation, and cultural expertise
                     </i>
                   </li>
                   <li className="list-group-item fs-5 backgroundColor  ">
@@ -126,8 +122,7 @@ export default function Experience() {
                       <FontAwesomeIcon icon={faCheckCircle} />
                     </span>
                     <i>
-                      Prepare root cause analysis to address problems with
-                      customer experience
+                    Worked as a Media Researcher for NewsAccess in Ireland and Media Research Group [MRG] in Australia
                     </i>
                   </li>
                   <li className="list-group-item fs-5 backgroundColor  ">
@@ -135,8 +130,7 @@ export default function Experience() {
                       <FontAwesomeIcon icon={faCheckCircle} />
                     </span>
                     <i>
-                      Media Summary and Transcription Works for Australian
-                      Clients
+                      Media Summary and Transcription Works
                     </i>
                   </li>
                 </ul>
@@ -173,8 +167,7 @@ export default function Experience() {
                     </span>
 
                     <i>
-                      Financial, Insurance, and Business Transcription works for
-                      the US and British Clients
+                    Experienced General Transcriptionist with 5 years of experience in converting audio, video, and other digital media into written documents
                     </i>
                   </li>
                   <li className="list-group-item fs-5 backgroundColor text-dark ">
@@ -191,7 +184,7 @@ export default function Experience() {
                       <FontAwesomeIcon icon={faCheckCircle} />
                     </span>
                     <i>
-                      Primary and Secondary Research Analyst for TomTom Maps
+                    Proficient in using a variety of transcription software such as Express Scribe, and Dragon Naturally Speaking
                     </i>
                   </li>
                 </ul>
