@@ -114,7 +114,7 @@ export default function Experience() {
                       <FontAwesomeIcon icon={faCheckCircle} />
                     </span>
                     <i>
-                    Experienced Language Specialist with over 5 years of experience in transcription, interpretation, and cultural expertise
+                    Experienced Language Specialist with over 5 years of experience in transcription and media summary
                     </i>
                   </li>
                   <li className="list-group-item fs-5 backgroundColor  ">
