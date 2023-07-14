@@ -301,7 +301,7 @@ export default function Certificates() {
     
 
       <div align="center" className="mt-5">
-      <ImageGallery items={images} />;
+      <ImageGallery items={images} style={{ height: 250, width: 400, marginLeft: 25, marginTop : 25 }}/>;
         {images.map((image) => {
           const { src, href, target, rel, alt } = image;
           return (
