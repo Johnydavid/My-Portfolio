@@ -296,12 +296,11 @@ export default function Certificates() {
      <h1 className="text-success fontClass" align="center">
         {" "}
        Certificates
-      </h1>
-  
-    
+      </h1> 
+    <ImageGallery items={images} style={{ height: 250, width: 400, marginLeft: 25, marginTop : 25 }}/>;
 
       <div align="center" className="mt-5">
-      <ImageGallery items={images} style={{ height: 250, width: 400, marginLeft: 25, marginTop : 25 }}/>;
+      
         {images.map((image) => {
           const { src, href, target, rel, alt } = image;
           return (
