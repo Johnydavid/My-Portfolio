@@ -75,7 +75,23 @@ export default function Projects() {
 </div>
 
       <div align="center" className="mt-5">
+<<<<<<< HEAD
       {images.map((image) => {
+=======
+{/*         {images.map((image) => {
+          const { src, href, target, rel, alt } = image;
+          return (
+            <a href={href} target={target} rel={rel}>
+              <img
+                src={src}
+                alt={alt}
+                style={{ height: 250, width: 400, marginLeft : 25, marginTop : 25, borderRadius : 10 }}
+              ></img>
+            </a>
+          );
+        })} */}
+         {images.map((image) => {
+>>>>>>> a2348b943133da9e00a6c6723bc68cb88be59e27
         const { src, href, target, rel, alt, front_end, back_end, database } = image;
 
         return (
