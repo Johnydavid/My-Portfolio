@@ -1,5 +1,6 @@
 import React from "react";
 import ImageGallery from "react-image-gallery";
+import './Projects.css'
 
 const images = [
   {
@@ -60,19 +61,47 @@ export default function Projects() {
         Projects
       </h1>
 
+      <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> </img>
+    </div>
+    <div class="flip-card-back">
+      <h1>John Doe</h1>
+      <p>Architect & Engineer</p>
+      <p>We love that guy</p>
+    </div>
+  </div>
+</div>
+
       <div align="center" className="mt-5">
-        {images.map((image) => {
-          const { src, href, target, rel, alt } = image;
-          return (
-            <a href={href} target={target} rel={rel}>
-              <img
-                src={src}
-                alt={alt}
-                style={{ height: 250, width: 400, marginLeft : 25, marginTop : 25, borderRadius : 10 }}
-              ></img>
-            </a>
-          );
-        })}
+      {images.map((image) => {
+        const { src, href, target, rel, alt, front_end, back_end, database } = image;
+
+        return (
+          <div className={"flip-card"}>
+            <div className={"flip-card-inner"}>
+              <div className="flip-card-front">
+                <img
+                  src={src}
+                  alt={alt}
+                  style={{ width: 300, height: 200 }}
+                ></img>
+              </div>
+              <div class="flip-card-back">
+                <a href={href} target={target} rel={rel}>
+                <h1>{alt}</h1>
+                  
+                </a>
+             
+                  <p>Front-End: {front_end}</p>
+                  <p>{back_end}</p>
+                  <p>{database}</p>
+              </div>
+            </div>
+          </div>
+        );
+      })}
       </div>
     </>
   );
