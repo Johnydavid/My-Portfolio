@@ -31,6 +31,7 @@ const images = [
     href: "https://user-profile-dashboard.netlify.app/",
     target: "_blank",
     rel: "noreferrer",
+    front_end: "ReactJs",
   },
 
   {
@@ -41,6 +42,7 @@ const images = [
     href: "https://visitshopping-cart.netlify.app/",
     target: "_blank",
     rel: "noreferrer",
+    front_end: "ReactJs",
   },
   {
     src: "https://static.vecteezy.com/system/resources/previews/000/303/649/original/teacher-and-students-in-classroon-vector.jpg",
@@ -50,6 +52,7 @@ const images = [
     href: "https://stud-teacher-dashboard.netlify.app/",
     target: "_blank",
     rel: "noreferrer",
+    front_end: "ReactJs",
   },
 ];
 
@@ -59,39 +62,10 @@ export default function Projects() {
       <h1 className="text-success fontClass" align="center">
         {" "}
         Projects
-      </h1>
-
-      <div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> </img>
-    </div>
-    <div class="flip-card-back">
-      <h1>John Doe</h1>
-      <p>Architect & Engineer</p>
-      <p>We love that guy</p>
-    </div>
-  </div>
-</div>
+      </h1>     
 
       <div align="center" className="mt-5">
-<<<<<<< HEAD
       {images.map((image) => {
-=======
-{/*         {images.map((image) => {
-          const { src, href, target, rel, alt } = image;
-          return (
-            <a href={href} target={target} rel={rel}>
-              <img
-                src={src}
-                alt={alt}
-                style={{ height: 250, width: 400, marginLeft : 25, marginTop : 25, borderRadius : 10 }}
-              ></img>
-            </a>
-          );
-        })} */}
-         {images.map((image) => {
->>>>>>> a2348b943133da9e00a6c6723bc68cb88be59e27
         const { src, href, target, rel, alt, front_end, back_end, database } = image;
 
         return (
