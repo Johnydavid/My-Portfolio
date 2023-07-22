@@ -64,7 +64,7 @@ export default function Projects() {
         Projects
       </h1>     
 
-      <div align="center" className="mt-5">
+      <div  className="mt-5">
       {images.map((image) => {
         const { src, href, target, rel, alt, front_end, back_end, database } = image;
 
