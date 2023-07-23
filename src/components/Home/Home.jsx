@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <div className=" container ">
-        <div className="containerBody"> </div>
+    
 
         <div className="nameClass text-start">
           <div>Hi,</div>
@@ -19,7 +19,7 @@ export default function Home() {
         <div className="typedOut text-center text-white-50   ">
           <h4>MERN Full Stack Developer</h4>
         </div>
-      </div>
+  
 
     </>
   );
