@@ -35,12 +35,12 @@ export default function Projects1(props) {
                     </div>
                     <div class="flip-card-back">
                       <a href={href} target={target} rel={rel}>
-                        <h1>{alt}</h1>
+                        <h3>{alt}</h3>
                       </a>
 
-                      <p>Front-End: {front_end}</p>
-                      <p>{back_end}</p>
-                      <p>{database}</p>
+                      <p>{front_end}</p>
+                      <p> {back_end}</p>
+                      <p> {database}</p>
                     </div>
                   </div>
                 </div>

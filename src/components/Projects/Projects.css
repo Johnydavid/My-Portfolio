@@ -30,20 +30,20 @@
   }
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-    background-color: dodgerblue;
+    background-color: black;
     color: black;
     border-radius: 10px;
   }
   
   .flip-card-front {
     background-color: #bbb;
-    color: black;
+    /* color: black; */
  
   }
   
   .flip-card-back {
-    background-color: dodgerblue;
-    color: black;
+    background-color: black;
+    color:chocolate;
     transform: rotateY(180deg);
     border-radius: 10px;
   }
