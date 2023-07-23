@@ -1,9 +1,7 @@
 export const images = [
     {
       src: "https://image3.mouthshut.com/images/imagesp/925106606s.jpg",
-      original: "https://image3.mouthshut.com/images/imagesp/925106606s.jpg",
-      thumbnail: "https://image3.mouthshut.com/images/imagesp/925106606s.jpg",
-     
+        
       isSelected: false,
       caption: "Post Office Details",
       alt: "Post Office",
@@ -13,11 +11,7 @@ export const images = [
     },
     {
       src: "https://image.winudf.com/v2/image1/Y29tLnBpeG9jaXR5YXBwcy5zcGVlZF9pY29uXzE1NDM5ODA3MDJfMDA4/icon.png?fakeurl=1&h=240&type=webp",
-      original:
-        "https://image.winudf.com/v2/image1/Y29tLnBpeG9jaXR5YXBwcy5zcGVlZF9pY29uXzE1NDM5ODA3MDJfMDA4/icon.png?fakeurl=1&h=240&type=webp",
-      thumbnail:
-        "https://image.winudf.com/v2/image1/Y29tLnBpeG9jaXR5YXBwcy5zcGVlZF9pY29uXzE1NDM5ODA3MDJfMDA4/icon.png?fakeurl=1&h=240&type=webp",
-   
+       
       alt: "Typing Test",
       href: "https://typingstudent.netlify.app",
       target: "_blank",
@@ -25,11 +19,7 @@ export const images = [
     },
     {
       src: "https://www.shutterstock.com/image-photo/selecting-candidates-profile-on-virtual-260nw-622563449.jpg",
-      original:
-        "https://www.shutterstock.com/image-photo/selecting-candidates-profile-on-virtual-260nw-622563449.jpg",
-      thumbnail:
-        "https://www.shutterstock.com/image-photo/selecting-candidates-profile-on-virtual-260nw-622563449.jpg",
-  
+      
       alt: "User Profile",
       href: "https://user-profile-dashboard.netlify.app/",
       target: "_blank",

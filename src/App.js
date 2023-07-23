@@ -8,15 +8,16 @@ import Certificates from "./components/Certificates/Certificates";
 import Contact from "./components/Contact/Contact";
 
 
+
 export default function App() {
   return (
     <>
    
  <Home />
  <About />  
-<Experience /> 
+<Experience />  
 <Projects /> 
- <Certificates /> 
+ <Certificates />  
 <Contact />   
 
 

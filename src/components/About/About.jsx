@@ -4,7 +4,7 @@ import './About.css';
 export default function About() {
   return (
     <div>
-      <div className="container aboutBody">
+      <div className="container aboutBody  mt-5">
         <div className="row mt-5">
           <div className="col-lg-6 col-md-12 col-sm-12">
             <h1 className="text-success fontClass"> About Me</h1>

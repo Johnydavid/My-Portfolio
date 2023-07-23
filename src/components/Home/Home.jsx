@@ -7,17 +7,20 @@ import './Home.css';
 export default function Home() {
   return (
     <>
-      <div className="container body  ">
+      <div className=" container ">
+        <div className="containerBody"> </div>
+
         <div className="nameClass text-start">
           <div>Hi,</div>
           <div>I'm,</div>
           <div>Johnson David</div>
         </div>
 
-        <div className="typedOut text-center text-white-50 ">
+        <div className="typedOut text-center text-white-50   ">
           <h4>MERN Full Stack Developer</h4>
         </div>
       </div>
+
     </>
   );
 }
