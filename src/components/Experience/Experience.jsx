@@ -1,9 +1,13 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCheckCircle } from "@fortawesome/fontawesome-free-solid";
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {  faCheckCircle} from '@fortawesome/free-solid-svg-icons'
+
+
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from "react-animation-on-scroll";
-// import { hover } from "@testing-library/user-event/dist/hover";
+import './Experience.css'
+
 
 
 
@@ -46,6 +50,7 @@ export default function Experience() {
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/RR_Donnelley_logo.svg/1200px-RR_Donnelley_logo.svg.png"
                   alt="RR Donnelley"
+                  className="logoImg"
                 ></img>
 
                 <h5 className="card-title mt-4 text-dark text-uppercase  text-center">
@@ -63,7 +68,8 @@ export default function Experience() {
                 <ul type="none" className="list-group list-group-flush   ">
                   <li className="list-group-item fs-5 text-dark backgroundColor ">
                     <span className="me-4  fs-5">
-                      <FontAwesomeIcon icon={faCheckCircle} />
+                
+                    <FontAwesomeIcon icon={faCheckCircle} />
                     </span>
                     <i>
                     Working as a CSE for Boston Consulting Group (BCG) Global Production.
@@ -72,6 +78,7 @@ export default function Experience() {
                   <li className="list-group-item fs-5 text-dark backgroundColor ">
                     <span className="me-4  fs-5">
                       <FontAwesomeIcon icon={faCheckCircle} />
+                      
                     </span>
                     <i>
                     5+ years of experience in customer service and client relations.
@@ -79,7 +86,8 @@ export default function Experience() {
                   </li>
                   <li className="list-group-item fs-5 text-dark  backgroundColor  ">
                     <span className="me-4  fs-5">
-                      <FontAwesomeIcon icon={faCheckCircle} />
+                    <FontAwesomeIcon icon={faCheckCircle} />
+                      
                     </span>
                     <i>
                     Handling complaints to building strategies for improving the overall customer experience and fostering loyalty
@@ -112,7 +120,7 @@ export default function Experience() {
                 <ul className="list-group list-group-flush" type="none">
                   <li className="list-group-item fs-5 backgroundColor  ">
                     <span className="me-4  fs-5">
-                      <FontAwesomeIcon icon={faCheckCircle} />
+                    <FontAwesomeIcon icon={faCheckCircle} />
                     </span>
                     <i>
                     Experienced Language Specialist with over 5 years of experience in transcription and media summary
@@ -120,7 +128,7 @@ export default function Experience() {
                   </li>
                   <li className="list-group-item fs-5 backgroundColor  ">
                     <span className="me-4  fs-5">
-                      <FontAwesomeIcon icon={faCheckCircle} />
+                    <FontAwesomeIcon icon={faCheckCircle} />
                     </span>
                     <i>
                     Worked as a Media Researcher for NewsAccess in Ireland and Media Research Group [MRG] in Australia
@@ -128,7 +136,7 @@ export default function Experience() {
                   </li>
                   <li className="list-group-item fs-5 backgroundColor  ">
                     <span className="me-4  fs-5">
-                      <FontAwesomeIcon icon={faCheckCircle} />
+                    <FontAwesomeIcon icon={faCheckCircle} />
                     </span>
                     <i>
                       Media Summary and Transcription Works
@@ -164,7 +172,7 @@ export default function Experience() {
                 <ul className="list-group list-group-flush  " type="none">
                   <li className="list-group-item fs-5 backgroundColor  text-dark ">
                     <span className="me-4  fs-5 ">
-                      <FontAwesomeIcon icon={faCheckCircle} />
+                    <FontAwesomeIcon icon={faCheckCircle} />
                     </span>
 
                     <i>
@@ -173,7 +181,7 @@ export default function Experience() {
                   </li>
                   <li className="list-group-item fs-5 backgroundColor text-dark ">
                     <span className="me-4  fs-5">
-                      <FontAwesomeIcon icon={faCheckCircle} />
+                    <FontAwesomeIcon icon={faCheckCircle} />
                     </span>
                     <i>
                       Transcript Quarterly Earnings Conference Calls for Fortune
@@ -182,7 +190,7 @@ export default function Experience() {
                   </li>
                   <li className="list-group-item fs-5 backgroundColor text-dark">
                     <span className="me-4  fs-5">
-                      <FontAwesomeIcon icon={faCheckCircle} />
+                    <FontAwesomeIcon icon={faCheckCircle} />
                     </span>
                     <i>
                     Proficient in using a variety of transcription software such as Express Scribe, and Dragon

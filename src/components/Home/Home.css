@@ -1,0 +1,22 @@
+.body {
+    /* background-color: #1d1d1d; */
+    color: whitesmoke;
+  }
+
+
+  .typedOut {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2s alternate infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0%;
+    }
+  
+    to {
+      width: 85%;
+    }
+  }
+  

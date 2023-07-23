@@ -1,12 +1,13 @@
 import React from "react";
+import './Home.css';
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSsquareArrowRight } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faSsquareArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
   return (
     <>
-      <div className="container ">
+      <div className="container body  ">
         <div className="nameClass text-start">
           <div>Hi,</div>
           <div>I'm,</div>
