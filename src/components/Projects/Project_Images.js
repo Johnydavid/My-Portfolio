@@ -59,5 +59,14 @@ export const images = [
       back_end: "Back-End: Node.js, Express.js, Oauth2.0, Nodemailer",
       database: "Database: MongoDB",
     },
+
+    {
+      src: "https://capitalizemytitle.com/wp-content/uploads/2020/03/random-word-generator.png",     
+      alt: "Random Word Generator",
+      href: "https://random-englishwords.netlify.app/",
+      target: "_blank",
+      rel: "noreferrer",
+      front_end: "Front-End: Javascript, CSS3, DOM Manipulation, Random Words [Vercel REST Api]",     
+    },
   ];
   
