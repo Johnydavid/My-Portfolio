@@ -5,7 +5,7 @@ import About from "./components/About/About";
 import Experience from "./components/Experience/Experience";
 import Projects from "./components/Projects/Projects";
 import Certificates from "./components/Certificates/Certificates";
-import Contact from "./components/Contact/Contact";
+
 
 
 
@@ -18,7 +18,7 @@ export default function App() {
 <Experience />  
 <Projects /> 
  <Certificates />  
-<Contact />   
+ 
 
 
 

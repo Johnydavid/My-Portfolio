@@ -5,9 +5,9 @@ export default function About() {
   return (
     <div>
       <div className="container aboutBody  mt-5">
-        <div className="row mt-5">
-          <div className="col-lg-6 col-md-12 col-sm-12">
-            <h1 className="text-success fontClass"> About Me</h1>
+        <div className="row mt-5 bg-warning-subtle">
+          <div className="col-lg-6 col-md-12 col-sm-12 ">
+            <h1 className="text-success "> About Me</h1>
 
             <ul className="mt-5 fs-4 fst-italic text-white-50 ">
               <li>
@@ -38,7 +38,7 @@ export default function About() {
             </ul>
           </div>
           <div
-            className="col-lg-6 col-md-12 col-sm-12 fontClass"
+            className="col-lg-6 col-md-12 col-sm-12  rightColumn"
             align="center"
           >
             <h1 className="text-success">Technical Skills</h1>
