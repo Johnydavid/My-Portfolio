@@ -1,15 +1,18 @@
 import React from "react";
 import './About.css';
 
+
+
 export default function About() {
+
   return (
     <div>
-      <div className="container aboutBody  mt-5">
-        <div className="row mt-5 bg-warning-subtle">
+      <div className="container aboutBody">
+        <div className="row mt-3 bg-warning-subtle">
           <div className="col-lg-6 col-md-12 col-sm-12 ">
             <h1 className="text-success "> About Me</h1>
 
-            <ul className="mt-5 fs-4 fst-italic text-white-50 ">
+            <ul className="mt-3 fs-4 fst-italic text-white-50 ">
               <li>
                 I'm a{" "}
                 <span className="text-warning">MERN Full Stack Developer</span>{" "}
@@ -24,8 +27,7 @@ export default function About() {
               </li>
               <li className="mt-3">
                 Familiarity with software development best practices such as
-                version control[Git], continuous integration, and automated
-                testing
+                version control[Git] and continuous integration.
               </li>
               <li className="mt-3">
                 Experience developing RESTful APIs using Node.js and Express 
@@ -38,13 +40,13 @@ export default function About() {
             </ul>
           </div>
           <div
-            className="col-lg-6 col-md-12 col-sm-12  rightColumn"
+            className="col-lg-6 col-md-12 col-sm-12  "
             align="center"
           >
-            <h1 className="text-success">Technical Skills</h1>
+            <h1 className="text-success  ">Technical Skills</h1>
 
-            <h3 className="mt-5 text-danger">Languages</h3>
-            <p className="mt-3 ">
+            <h3 className="mt-3 text-danger">Languages</h3>
+            <p className="mt-3 revealSkills ">
               {" "}
               <a
                 href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
@@ -62,18 +64,10 @@ export default function About() {
                 
                 />{" "}
               </a>{" "}
-              <a href="https://www.python.org" target="_blank" rel="noreferrer">
-                {" "}
-                <img
-                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
-                  alt="python"
-                  title="Python"
-                  className="skillsImg"
-                />{" "}
-              </a>{" "}
-            </p>
-            <h3 className="mt-5 text-danger">Front End Development</h3>
-            <p className="mt-3 ">
+              </p>
+           
+            <h3 className="mt-3 text-danger">Front End Development</h3>
+            <p className="mt-3 revealSkills">
               <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
                 {" "}
                 <img
@@ -125,8 +119,8 @@ export default function About() {
                 />{" "}
               </a>{" "}
             </p>
-            <h3 className="mt-5 text-danger">Back End Development</h3>
-            <p className="mt-3 ">
+            <h3 className="mt-3 text-danger">Back End Development</h3>
+            <p className="mt-3 revealSkills">
               <a href="https://nodejs.org" target="_blank" rel="noreferrer">
                 {" "}
               
@@ -139,7 +133,7 @@ export default function About() {
               </a>
             </p>
             <h3 className="mt-3 text-danger">Database</h3>
-            <p className="mt-3 ">
+            <p className="mt-3 revealSkills">
               <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
                 {" "}
                 <img

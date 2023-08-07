@@ -1,5 +1,8 @@
 import React from "react";
 import './Home.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
+import ScrollToTop from "react-scroll-to-top";
 
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faSsquareArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -25,7 +28,8 @@ export default function Home() {
         <div className="typedOut text-center text-white-50   ">
           <h4>MERN Full Stack Developer</h4>
         </div>
-        <button  className="btn btn-secondary btn-lg text-dark" onClick={handleClick}>Download Resume</button>
+
+        <button  className="btn btn-secondary btn-lg text-dark mt-5" onClick={handleClick}>Download Resume</button>
        
         </div>
 
@@ -91,6 +95,12 @@ export default function Home() {
           </div>
           </div>
           </div>
+
+          <ScrollToTop
+        smooth
+        title="Move to Top"
+        component={<FontAwesomeIcon icon={faAngleUp} />}
+      />
         
   
 
