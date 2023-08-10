@@ -1,7 +1,8 @@
 .skillsImg{
      height:55px;
     width:70px; 
-    background-color: black;
+    /* background-color: black; */
+    background-color: chartreuse;
     border-radius: 10px;
 }
 
