@@ -1,5 +1,6 @@
 import React from "react";
 import './Home.css';
+import './Button.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
 import ScrollToTop from "react-scroll-to-top";
@@ -8,12 +9,12 @@ import ScrollToTop from "react-scroll-to-top";
 // import { faSsquareArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
-  const handleClick = ()=>{
-    let alink = document.createElement("a");
-    alink.href = "https://drive.google.com/file/d/1-bTCivS0W0rNT3LN7W_cbz9YLiwvGSu8/view?usp=drive_link";
-    alink.target = "new"
-    alink.click();
-  }
+  // const handleClick = ()=>{
+  //   let alink = document.createElement("a");
+  //   alink.href = "https://drive.google.com/file/d/1-bTCivS0W0rNT3LN7W_cbz9YLiwvGSu8/view?usp=drive_link";
+  //   alink.target = "new"
+  //   alink.click();
+  // }
   return (
     
     <>
@@ -25,11 +26,18 @@ export default function Home() {
           <div>Johnson David</div>
         </div>
 
-        <div className="typedOut text-center text-white-50   ">
+        <div className="typedOut text-center text-white-50">
           <h4>MERN Full Stack Developer</h4>
         </div>
 
-        <button  className="btn btn-secondary btn-lg text-dark mt-5" onClick={handleClick}>Download Resume</button>
+        {/* <button  className="btn btn-secondary btn-lg text-dark mt-5" onClick={handleClick}>Download Resume</button> */}
+       
+        </div>
+
+        <div className="buttonContainer">
+        <a href = "https://drive.google.com/file/d/1-bTCivS0W0rNT3LN7W_cbz9YLiwvGSu8/view?usp=drive_link" target = "new">
+            <span>Download Resume</span>
+        </a>
        
         </div>
 
