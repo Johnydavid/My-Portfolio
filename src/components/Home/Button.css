@@ -57,8 +57,9 @@
 
 .buttonContainer a:nth-child(1):before,
 .buttonContainer a:nth-child(1):after{
-    background: linear-gradient(45deg, #6b6335, #837d31, #2a962f, #1aff22);
-    /* background: linear-gradient(45deg, #00ccff, #0e1538, #0e1538, #d400d4); */
+    background: linear-gradient(45deg, #00ccff, #0e1538, #0e1538, #d400d4);
+    /* background: linear-gradient(45deg, #6b6335, #837d31, #2a962f, #1aff22); */
+    /* background: linear-gradient(45deg, #1aff22,  #1d1d1d,  #1d1d1d, #1aff22); */
 }
 
 .buttonContainer a:hover::before{
