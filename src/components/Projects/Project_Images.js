@@ -68,5 +68,13 @@ export const images = [
       rel: "noreferrer",
       front_end: "Front-End: Javascript, CSS3, DOM Manipulation, Random Words [Vercel REST Api]",     
     },
+    {
+      src: "https://www.clouderp4.com/images/oa_tm.gif",     
+      alt: "CRUD Project using Redux",
+      href: "https://projectmgmt-redux.netlify.app/",
+      target: "_blank",
+      rel: "noreferrer",
+      front_end: "Front-End: Javascript, Bootstrap, ReactJS, Redux",     
+    },
   ];
   
