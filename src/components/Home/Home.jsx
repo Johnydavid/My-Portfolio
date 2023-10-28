@@ -35,7 +35,7 @@ export default function Home() {
         </div>
 
         <div className="buttonContainer">
-        <a href = "https://drive.google.com/file/d/1-bTCivS0W0rNT3LN7W_cbz9YLiwvGSu8/view?usp=drive_link" target = "new">
+        <a href = "https://drive.google.com/file/d/1-jfeyhSYAwovhuYyy4F0Bv73cig40aRt/view" target = "new">
             <span>Download Resume</span>
         </a>
        
