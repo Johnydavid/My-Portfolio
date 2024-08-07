@@ -11,10 +11,10 @@ export const images = [
 
   {
     original:
-      "https://drive.google.com/uc?export=view&id=1-SvQS5cseUeYS7ZV7GLsLfOs3hhoQehv",
+      "https://drive.usercontent.google.com/download?id=1-SvQS5cseUeYS7ZV7GLsLfOs3hhoQehv&export=view&authuser=0",
 
     thumbnail:
-      "https://drive.google.com/uc?export=view&id=1-SvQS5cseUeYS7ZV7GLsLfOs3hhoQehv",
+      "https://drive.usercontent.google.com/download?id=1-SvQS5cseUeYS7ZV7GLsLfOs3hhoQehv&export=view&authuser=0",
 
     alt: "Module 1 - HTML5",
   },
