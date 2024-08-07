@@ -1,6 +1,6 @@
 import React from "react";
 import ImageGallery from 'react-image-gallery';
-import './Certificates.css'
+
 import { images } from "./Certificates_Images";
 
 
