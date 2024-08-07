@@ -58,6 +58,7 @@ export default function Experience() {
                 </h5>
                 <h5 className="card-header p-1 text-dark text-center">
                   Senior Customer Service Executive
+                 Front End Developer
                 </h5>
                 <h6 className="card-title text-dark  text-center">
                   January 2017 - Present
